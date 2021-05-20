@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang = "ko">
+    
+    <head>
+        <title>냥루-관련 사이트</title>
+        <meta charset = "utf-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+            img
+            {
+                margin: 5px;
+            }
+            #form
+            {
+                border: 3px solid pink;
+                font-family: 'Nanum Gothic';
+                height: 1150px;
+                width: 960px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                padding: 10px;
+            }
+
+            #banner
+            {
+                padding: 10px;
+                margin: 10px;
+                text-align: center;
+            }
+
+            #category
+            {
+                font-family: 'Nanum Gothic';
+                margin: 0px 25px;
+                float: center;
+                height: 55px;  
+                width: 900px;
+                background: rgb(255, 240, 242);
+            }
+            #category > ul /*큰메뉴 전체*/
+            {
+                width: 850px;
+                display: inline-block;
+            }
+            .categorymenu > li /*큰메뉴 리스트*/
+            {
+                margin-top: 5px;
+                padding-top: 10px;
+                vertical-align: top;
+                text-align: center;
+                display: inline-block;
+                position: relative;
+                border-left: 3px dotted pink;
+                border-right: 3px dotted pink;
+                width: 31.3%;
+                background: rgb(255, 240, 242);
+                font-size: 25px;
+                font-weight: bold;
+                list-style: none;
+            }
+            .categorymenu > li:hover /*큰메뉴 리스트*/
+            {
+                border: 3px dotted pink;
+                background: rgb(243, 253, 249);
+            }
+            .categorymenu > li > ul /*작은메뉴 전체*/
+            {
+                padding: 15px;
+                margin: 20px 5px;
+                display: none;
+                background: rgba(255, 240, 242, 0.87);
+                width: 75%;
+            }
+            .categorymenu > li:hover > ul
+            {
+                display: inline-block;
+            }
+            .categorymenu > li > ul > li, a /*작은메뉴 리스트*/
+            {
+                font-size: 19px;
+                color: black;
+                text-align: left;
+                margin-bottom: 7px;
+                padding-left: 7px;
+                font-weight: normal;
+                list-style: none;
+                text-decoration: none;
+            }
+
+            #sitelink
+            {
+                margin: 20px;
+                padding: 5px 25px;
+                width: 900px;
+            }
+            .siteblock
+            {
+                border: dotted 5px pink;
+                display: inline-block;
+                width: 43%;
+                padding: 15px;
+                margin: 5px;
+                overflow: hidden;
+            }
+            .siteblock > img
+            {
+                float: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id = "form">
+
+            <div id = "banner">
+                <header>
+                    <a href = "main.html"><img src = "image/banner.png" width = 900 height = auto alt = "banner"></a>
+                </header>
+            </div>
+            
+            <hr align="center" style = "border: 3px dotted pink; width: 95%;" >
+
+            <div id = "category">
+                <nav>
+                    <ul class = "categorymenu">
+                        <li class = "categorymain">
+                            고양이 프로필
+                            <ul class = "categorysub">
+                                <li><a href = "Keunnyang.html">▷ 큰냥</a></li>
+                                <li><a href = "Sarangi.html">▷ 사랑이</a></li>
+                                <li><a href = "Choiricheese.html">▷ 최 리 치즈</a></li>
+                                <li><a href = "first.html">▷ 첫째</a></li>
+                                <li><a href = "second.html">▷ 둘째</a></li>
+                                <li><a href = "third.html">▷ 셋째</a></li>
+                                <li><a href = "forth.html">▷ 넷째</a></li>
+                                <li><a href = "fifth.html">▷ 다섯째</a></li>
+                                <li><a href = "sixth.html">▷ 여섯째</a></li>
+                                <li><a href = "seventh.html">▷ 일곱째</a></li>
+                                <li><a href = "eighth.html">▷ 여덟째</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class = "categorymain">
+                            분양
+                            <ul class = "categorysub">
+                                <li><a href = "catmomsprofile.html">▷ 집사 프로필</a></li>
+                                <li><a href = "howtoget.html">▷ 분양 방법</a></li>
+                            </ul>
+                        </li> 
+            
+                        <li class = "categorymain">
+                            기타
+                            <ul class = "categorysub">
+                                <li><a href = "sitelink.html">▷ 관련 사이트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <br>
+
+            <div id = "sitelink">
+                <div id = "petfriends" class = "siteblock">
+                    <a href = "https://www.pet-friends.co.kr/#/main/tab/2" target = "_blank"><img src = "image/sitelinkpic/petfriends.PNG" width = 95% height = auto alt = "펫프렌즈"></a>
+                    <p><strong>펫프렌즈!!</strong>&nbsp;다양한 고양이 용품을 APP에서 보고싶다면~? 할인이 펑펑~~</p>
+                </div>
+                <div id = "catpresident" class = "siteblock">
+                    <a href = "http://www.catpre.com/shop/main/index.php" target = "_blank"><img src = "image/sitelinkpic/catpresident.PNG" width = 95% height = auto alt = "고양이 대통령"></a>
+                    <p><strong>고양이 대통령!!</strong>&nbsp;고양이 용품들을 카테고리별로 확인해봐요~ 앱도 있어요!!</p>
+                </div>
+                <div id = "pethroom" class = "siteblock">
+                    <a href = "https://www.pethroom.com/" target = "_blank"><img src = "image/sitelinkpic/pethroom.PNG" width = 95% height = auto alt = "페스룸"></a>
+                    <p><strong>페스룸!!</strong>&nbsp;고양이 관리 용품 전문 사이트!! 아무거나 쓰지 않을거에요~~</p>
+                </div>
+                <div id = "catskingdom" class = "siteblock">
+                    <a href = "http://www.catskingdom.co.kr/" target = "_blank"><img src = "image/sitelinkpic/catskingdom.PNG" width = 95% height = auto alt = "고양이 왕국"></a>
+                    <p><strong>고양이 왕국!!</strong>&nbsp;특별한 선물 세트도 있어요~~ 아직 반려묘가 무엇을 좋아하는지 모른다면~?</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
